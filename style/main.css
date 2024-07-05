@@ -5,6 +5,10 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .song {
@@ -12,7 +16,6 @@ body {
 }
 
 .container {
-  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -90,10 +93,9 @@ body {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
-
 
 .six {
   position: relative;
@@ -101,17 +103,22 @@ body {
   z-index: 1;
 }
 
+.six video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .six img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
@@ -273,7 +280,6 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
     width: 50px;
   }
 
