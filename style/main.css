@@ -5,10 +5,6 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .song {
@@ -94,32 +90,28 @@ body {
   display: inline-block;
 }
 
-.idea-6 span {
+.idea-6 span{
   font-size: 15rem;
 }
 
+
 .six {
   position: relative;
-  text-align: center;
-}
-
-.profile-picture {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  top: 10vh;
+  z-index: 1;
 }
 
 .six img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
+  /* height: auto; */
 }
 
 .six .hat {
-  left: 50%;
+  left: 41.5%;
   position: absolute;
-  transform: translateX(-50%);
+  /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
@@ -236,25 +228,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 50%;
+    left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 50%;
+    left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 50%;
+    left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 50%;
+    left: 32%;
   }
 }
 
@@ -281,6 +273,7 @@ body {
   }
 
   .six .hat {
+    /* top: -20px; */
     width: 50px;
   }
 
