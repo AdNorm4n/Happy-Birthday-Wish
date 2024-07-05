@@ -1,10 +1,5 @@
-/* Ensure box-sizing is inherited by all elements */
 html {
   box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 body {
@@ -95,31 +90,30 @@ body {
   display: inline-block;
 }
 
-.idea-6 span {
+.idea-6 span{
   font-size: 15rem;
 }
 
+
 .six {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  position: relative;
+  top: 10vh;
+  z-index: 1;
 }
 
-.six video {
-  max-height: 70vh;
-  max-width: 90vw;
+.six img {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+  /* height: auto; */
 }
 
-.six img.hat {
+.six .hat {
+  left: 41.5%;
   position: absolute;
+  /* transform: scale(0.1); */
+  top: -35%;
   width: 80px;
-  top: 10%;
-}
-
-.wish {
-  margin-top: 1rem;
 }
 
 .baloons img {
