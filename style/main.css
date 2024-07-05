@@ -107,10 +107,22 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   top: -35%;
-  width: 80px;
+  width: 50px;
+}
+
+.six .profile-picture {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
+.wish {
+  margin-top: 10px;
 }
 
 .baloons img {
