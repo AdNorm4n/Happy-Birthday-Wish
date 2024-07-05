@@ -1,4 +1,4 @@
-/*// trigger to play music in the background with sweetalert
+// trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
         title: 'Sayang, do you want to play music in the background?',
@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
             animationTimeline();
         }
     });
-});*/
+});
 
 
 // animation timeline
