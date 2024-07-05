@@ -90,7 +90,7 @@ body {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
 
@@ -98,6 +98,7 @@ body {
   position: relative;
   top: 10vh;
   z-index: 1;
+  text-align: center;
 }
 
 .six img {
@@ -117,7 +118,7 @@ body {
 .six .profile-picture {
   display: block;
   margin: 0 auto;
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -219,7 +220,7 @@ body {
 }
 
 .wish h5 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   margin: 10px 0 0;
 }
